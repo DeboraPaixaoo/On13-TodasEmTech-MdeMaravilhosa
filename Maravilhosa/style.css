@@ -69,6 +69,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-transform: uppercase;
   }
   
   
@@ -185,6 +186,7 @@
     padding: 60px;
     color:#ffffff;
     text-align: justify;
+    
 }
 
 .autora_titulo{
@@ -198,6 +200,7 @@
 
 .autora_sobre{
     display: flex;
+
 }
 
 .autora_imagem {
@@ -247,6 +250,7 @@
     .container_header {
         display:flex;
         flex-direction: row;
+        justify-content: space-around;
         align-items: center;
 
     }  
@@ -258,4 +262,27 @@
         margin-left: 8px;
         
     }
+
+    .header_titulo{
+        width: 30%;
+        margin: 45px 0px 120px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .suaHistoria_imagem{
+        width: 50%;
+        border-radius: 30px;
+        
+  }
+
+    .container_suaHistoria{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .suaHistoria_paragrafo{
+        text-align: center;
+    }
+
   }
